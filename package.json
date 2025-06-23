@@ -58,7 +58,6 @@
   "@prisma/client": "^6.1.0",
   "@sentry/node": "^8.47.0",
   "@nestjs/swagger": "^7.2.6",
-  "swagger-ui-express": "^4.19.0",
   "amqplib": "^0.10.5",
   "audio-decode": "^2.2.3",
   "axios": "^1.7.9",
