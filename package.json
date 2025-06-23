@@ -100,7 +100,7 @@
     "socket.io": "^4.8.1",
     "socket.io-client": "^4.8.1",
     "tsup": "^8.3.5",
-    "swagger-ui-express": "^4.19.0"
+    "swagger-ui-express": "^4.6.3"
   },
   "devDependencies": {
     "@types/compression": "^1.7.5",
