@@ -21,11 +21,13 @@ import { join } from 'path';
 function initWA() {
   waMonitor.loadInstance();
 }
+import { setupSwagger } from '@config/swagger';
 
 async function bootstrap() {
   const logger = new Logger('SERVER');
   const app = express();
-
+  
+setupSwagger(app);
   let providerFiles: ProviderFiles = null;
   if (configService.get<ProviderSession>('PROVIDER').ENABLED) {
     providerFiles = new ProviderFiles(configService);
